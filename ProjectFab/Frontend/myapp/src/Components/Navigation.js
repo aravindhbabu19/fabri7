@@ -16,17 +16,17 @@ const Navigation = () => {
                     
                     <ul class="navbar-nav ms-auto">
                         <Link class='text-decoration-none ' to={'/'}>
-                        <li class="nav-item me-5"><a class="nav-link active nav1-color" href="">Home</a></li>
+                        <li class="nav-item ms-2 me-5"><a class="nav-link active nav1-color" href="">Home</a></li>
                         </Link>
                         <Link class='text-decoration-none' to={'/About'}>
-                        <li class="nav-item me-5"><a class="nav-link active" href="">About Us</a></li>
+                        <li class="nav-item ms-2 me-5"><a class="nav-link active" href="">About Us</a></li>
                         </Link>
                         
                         <Link class='text-decoration-none' to={'/Services'}>
-                        <li class="nav-item me-5"><a class="nav-link active" href="">Services</a></li>
+                        <li class="nav-item ms-2 me-5"><a class="nav-link active" href="">Services</a></li>
                         </Link>
                         <Link class='text-decoration-none' to={'/Project'}>
-                        <li class="nav-item me-5"><a class="nav-link active" href="">Projects</a></li>
+                        <li class="nav-item ms-2 me-5"><a class="nav-link active" href="">Projects</a></li>
                         </Link>
                         <Link class='text-decoration-none' to={'/Contact'}>
                         <li class="nav-item me-5"><a class="nav-link active" href="">Contact Us</a></li>
