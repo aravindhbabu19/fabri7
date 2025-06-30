@@ -17,7 +17,7 @@ const Contact = () => {
  const handleSubmit=(e)=>{
   const number="+919019500835"
     e.preventDefault()
-    axios.post('http://localhost:3500/api/v1/Fabrication',{name,email,contact,message})
+    axios.post('https://fabri7.onrender.com/api/v1/Fabrication',{name,email,contact,message})
     .then((result)=>{
         console.log(result)
         var url="https://wa.me/"+number+"?text="
