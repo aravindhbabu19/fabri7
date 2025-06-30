@@ -479,7 +479,6 @@ color: #ffffff;
 .service-img{
   border-radius: 10px;
   animation: blink linear;
-  animation-duration: 3s;
   animation-delay: 1s;
   animation-timeline:view();
   animation-range: entry 0% cover 40%;
