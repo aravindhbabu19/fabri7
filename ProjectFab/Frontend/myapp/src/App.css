@@ -1261,3 +1261,8 @@ color: #ffffff;
 }
 
 
+@media only screen and (width: 1265px){
+  .aboutus-img{
+    margin-left:140px;
+    margin-top: 100px;
+}
